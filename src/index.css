@@ -12,6 +12,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  background: url('https://r4.wallpaperflare.com/wallpaper/696/775/719/gnu-linux-dark-wallpaper-09f068edf1ba2dbb46e7f83fc0f116ed.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.count {
+  font-size: 12em;
+  color: #1bb943;
+  margin-top: 0;
 }
 
 a {
@@ -32,11 +43,17 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.2em;
   line-height: 1.1;
 }
 
-button {
+h2 {
+  font-size: 2.5em;
+}
+
+Button {
+  height: 4em;
+  width: 12em;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -46,13 +63,18 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 1em;
 }
-button:hover {
-  border-color: #646cff;
+Button:hover {
+  border-color: #f82222;
 }
-button:focus,
-button:focus-visible {
+Button:focus,
+Button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.success:hover {
+  border-color: #50d150;
 }
 
 @media (prefers-color-scheme: light) {
